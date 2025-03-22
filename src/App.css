@@ -1,0 +1,598 @@
+@import url("https://fonts.cdnfonts.com/css/bebas-neue");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Slackey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baumans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  backdrop-filter: blur(8px);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title h1 {
+  font-family: "Bebas Neue";
+  color: #23b73b;
+  font-size: 50px;
+  filter: drop-shadow(2px 2px #fcce00);
+}
+.title p {
+  font-family: "Slackey";
+  font-size: 20px;
+  font-weight: 600;
+  filter: drop-shadow(1px 1px #fcce00);
+  color: #f42b26;
+}
+
+.nav-btns {
+  display: flex;
+  gap: 50px;
+  font-weight: 600;
+  color: white;
+  font-family: "Coming Soon";
+}
+.nav-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.nav-title img {
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(1px 1px 1px black);
+}
+.btn {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fcce00;
+  font-weight: 700;
+  padding: 5px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+.btn:hover {
+  color: #23b73b;
+  transform: scale(1.2);
+  background: #fcce00;
+}
+.btn:active {
+  color: #f42b26;
+}
+.first-body {
+  height: 500px;
+  background-image: url("./pictures/burger-img.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 4px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 2%;
+  position: relative;
+}
+.intro h1 {
+  font-family: "Sedgwick Ave Display";
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 40%;
+  font-size: 101px;
+  font-weight: 600;
+  color: #23b73b;
+  filter: drop-shadow(3px 1px 1px #fcce00);
+  animation: fade 2.5s forwards;
+}
+.third-body {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.third-body h1 {
+  font-family: "Slackey";
+  font-size: 70px;
+  font-weight: 500;
+  color: #23b73b;
+  text-decoration: wavy;
+  margin-bottom: 2%;
+  filter: drop-shadow(2px 2px rgba(244, 43, 38));
+}
+.second-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.second-title p {
+  font-family: "Baumans";
+  font-size: 27px;
+  font-weight: 600;
+  color: #fcce00;
+  filter: drop-shadow(1px 1px #23b73b);
+}
+.second-title img {
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 5px;
+  filter: brightness(50%);
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+.menu-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(252, 206, 0);
+  border-radius: 6px;
+  color: white;
+  padding: 1%;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.menu-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.menu-title h2 {
+  font-family: "Atma";
+  font-size: 30px;
+  text-align: center;
+  color: #f42b26;
+  filter: drop-shadow(1px 1px black);
+  margin-top: 1%;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.menu-para {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.menu-info p {
+  color: #23b73b;
+  font-family: "Baumans";
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  filter: drop-shadow(1px 1px black);
+}
+.menu-info hr {
+  width: 100%;
+  height: 2%;
+  margin-top: 1%;
+}
+.menu-hot {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 1%;
+}
+.menu-hot img {
+  width: 25px;
+  height: 25px;
+}
+.third-body h3 {
+  margin-bottom: 1%;
+  font-family: "lobster";
+  font-size: 40px;
+  color: #fcce00;
+  filter: drop-shadow(1px 1px rgba(244, 43, 38));
+}
+
+.menu-extra h4 {
+  font-family: "slackey";
+  color: #23b73b;
+  font-size: 70px;
+  filter: drop-shadow(2px 2px rgba(244, 43, 38));
+}
+.menu-extra {
+  display: flex;
+  width: 100%;
+  margin-top: 1%;
+  justify-content: center;
+  align-items: center;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 10%;
+}
+
+.extra-all-info {
+  background-color: #fcce00;
+  margin-bottom: 5%;
+  border-radius: 6px;
+  color: #f42b26;
+  width: 50%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  margin-left: 25%;
+}
+.extra-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+.extra-title h2 {
+  font-family: "Atma";
+  font-size: 25px;
+  width: 50%;
+  filter: drop-shadow(1px 1px black);
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.extra-title p {
+  font-family: "Baumans";
+  font-size: 20px;
+  color: #23b73b;
+  font-weight: 600;
+  display: flex;
+  filter: drop-shadow(1px 1px black);
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.top-btn-func {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  background-color: red;
+}
+
+.top-btn {
+  border-radius: 100px;
+  background-color: #f42b26;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  padding: 5px;
+  box-shadow: 2px 2px 0px #222222;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1000;
+}
+.top-btn:hover {
+  background-color: #23b73b;
+  box-shadow: 2px 2px 1px black;
+  transition: 0.2s ease-in-out;
+}
+.top-btn:active {
+  transform: translateY(4px);
+  background-color: white;
+  box-shadow: none;
+}
+.location {
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px 5px black);
+}
+.third-body h5 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fcce00;
+  filter: drop-shadow(2px 2px rgba(244, 43, 38));
+  font-family: "coming soon";
+}
+.loc-pic {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.loc-pic img {
+  width: 70px;
+  height: 70px;
+}
+.contact-body {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  margin-top: 5%;
+  color: #fcce00;
+  justify-content: center;
+  align-items: center;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+.contact-body h1 {
+  font-family: "slackey";
+  font-size: 70px;
+  font-weight: 600;
+  color: #23b73b;
+  margin-bottom: 2%;
+  filter: drop-shadow(2px 2px rgba(244, 43, 38));
+}
+.contact-body p {
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "coming soon";
+}
+.contact-whats {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-whats a {
+  text-decoration: none;
+  color: #f42b26;
+  padding: 5px;
+}
+.contact-whats a:hover {
+  color: #23b73b;
+  transform: scale(1.2);
+  border-radius: 15px;
+  text-decoration: underline;
+  transition: 0.2s ease-in-out;
+}
+.contact-whats a:active {
+  color: grey;
+  filter: drop-shadow(2px 2px black);
+}
+.footer {
+  color: grey;
+  font-family: "poppins";
+  display: flex;
+  font-size: 10px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+.navbar2 {
+  display: none;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.dropdown-btn.open {
+  transform: rotate(180deg);
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+}
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  width: 120px;
+  background-color: rgba(252, 206, 0);
+  padding: 1%;
+  border-radius: 5px;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.dropdown-list.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown-item {
+  font-family: "coming soon";
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  filter: drop-shadow(1px 1px rgba(244, 43, 38));
+  text-decoration: none;
+  color: black;
+  padding: 8px 8px;
+  transition: background 0.3s ease-in-out;
+}
+.nav-title2 {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.nav-title2 img {
+  width: 25px;
+  height: 25px;
+  /* filter: drop-shadow(1px 1px 1px black); */
+}
+.title2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title2 h1 {
+  font-family: "Bebas Neue";
+  color: #23b73b;
+  font-size: 40px;
+  filter: drop-shadow(2px 2px #fcce00);
+}
+.title2 p {
+  font-family: "Slackey";
+  font-size: 15px;
+  filter: drop-shadow(1px 1px #fcce00);
+  color: #f42b26;
+}
+
+/*Responsive Section*/
+@media (max-width: 999px) {
+  .first-body {
+    background-image: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .intro h1 {
+    position: relative;
+    display: flex;
+    left: 5px;
+    font-size: 70px;
+    width: 100%;
+    color: #f42b26;
+    margin-top: 0;
+    filter: drop-shadow(2px 2px #23b73b);
+  }
+}
+
+@media (max-width: 600px) {
+  .third-body h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .second-title p {
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .third-body h1 {
+    font-size: 30px;
+  }
+  .third-body h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .menu-title h2 {
+    font-size: 15px;
+    margin-bottom: 1%;
+  }
+  .menu-info p {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .menu-extra h4 {
+    font-size: 30px;
+  }
+  .menu-hot img {
+    width: 20px;
+    height: 20px;
+  }
+  .extra-all-info {
+    width: 80%;
+    margin: 0;
+    margin-left: 40px;
+  }
+  .extra-title h2 {
+    font-size: 15px;
+  }
+  .extra-title p {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .loc-pic img {
+    width: 40px;
+    height: 40px;
+  }
+  .third-body h5 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .contact-body h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .contact-whats p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .footer p {
+    font-size: 5px;
+  }
+  .navbar {
+    display: none;
+  }
+  .navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
