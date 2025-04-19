@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #fcce00;
 }
 
 .navbar {
@@ -30,7 +30,7 @@ body {
   width: 100%;
   z-index: 10;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(252, 206, 0, 0.5);
 }
 .title {
   display: flex;
@@ -41,13 +41,13 @@ body {
   font-family: "Bebas Neue";
   color: #23b73b;
   font-size: 50px;
-  filter: drop-shadow(2px 2px #fcce00);
+  filter: drop-shadow(2px 2px black);
 }
 .title p {
   font-family: "Slackey";
   font-size: 20px;
   font-weight: 600;
-  filter: drop-shadow(1px 1px #fcce00);
+  filter: drop-shadow(1px 1px black);
   color: #f42b26;
 }
 
@@ -55,7 +55,6 @@ body {
   display: flex;
   gap: 50px;
   font-weight: 600;
-  color: white;
   font-family: "Coming Soon";
 }
 .nav-title {
@@ -72,19 +71,20 @@ body {
   margin-right: 10px;
   text-decoration: none;
   font-size: 17px;
-  color: #fcce00;
+  color: #23b73b;
+  filter: drop-shadow(1px 1px black);
   font-weight: 700;
   padding: 5px;
   border-radius: 5px;
   transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 }
 .btn:hover {
-  color: #23b73b;
+  color: #f42b26;
   transform: scale(1.2);
-  background: #fcce00;
+  background: black;
 }
 .btn:active {
-  color: #f42b26;
+  color: white;
 }
 .first-body {
   height: 500px;
@@ -96,6 +96,7 @@ body {
   margin-bottom: 5%;
   padding: 2%;
   position: relative;
+  filter: drop-shadow(2px 2px 2px black);
 }
 .intro h1 {
   font-family: "Sedgwick Ave Display";
@@ -139,14 +140,15 @@ body {
   font-family: "Baumans";
   font-size: 27px;
   font-weight: 600;
-  color: #fcce00;
-  filter: drop-shadow(1px 1px #23b73b);
+  color: #001;
+  filter: drop-shadow(1px 1px #f42b26);
 }
 .second-title img {
   width: 90%;
   margin-top: 20px;
   border-radius: 5px;
   filter: brightness(50%);
+  filter: drop-shadow(2px 2px 2px black);
 }
 @keyframes fade {
   0% {
@@ -172,9 +174,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: rgba(252, 206, 0);
+  background-color: black;
   border-radius: 6px;
-  color: white;
   padding: 1%;
   animation: appear linear;
   animation-timeline: view();
@@ -194,7 +195,7 @@ body {
   font-size: 30px;
   text-align: center;
   color: #f42b26;
-  filter: drop-shadow(1px 1px black);
+  filter: drop-shadow(1px 1px #fcce00);
   margin-top: 1%;
   animation: appear linear;
   animation-timeline: view();
@@ -206,12 +207,12 @@ body {
   animation-range: entry 0% cover 20%;
 }
 .menu-info p {
-  color: #23b73b;
+  color: #fcce00;
   font-family: "Baumans";
   font-size: 20px;
   font-weight: 600;
   display: flex;
-  filter: drop-shadow(1px 1px black);
+  filter: drop-shadow(1px 1px #f42b26);
 }
 .menu-info hr {
   width: 100%;
@@ -232,7 +233,7 @@ body {
   margin-bottom: 1%;
   font-family: "lobster";
   font-size: 40px;
-  color: #fcce00;
+  color: white;
   filter: drop-shadow(1px 1px rgba(244, 43, 38));
 }
 
@@ -254,10 +255,11 @@ body {
 }
 
 .extra-all-info {
-  background-color: #fcce00;
+  background-color: black;
   margin-bottom: 5%;
   border-radius: 6px;
   color: #f42b26;
+  filter: drop-shadow(1px 1px black);
   width: 50%;
   gap: 5px;
   display: flex;
@@ -277,7 +279,7 @@ body {
   font-family: "Atma";
   font-size: 25px;
   width: 50%;
-  filter: drop-shadow(1px 1px black);
+  filter: drop-shadow(1px 1px #fcce00);
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 20%;
@@ -285,10 +287,10 @@ body {
 .extra-title p {
   font-family: "Baumans";
   font-size: 20px;
-  color: #23b73b;
+  color: #fcce00;
   font-weight: 600;
   display: flex;
-  filter: drop-shadow(1px 1px black);
+  filter: drop-shadow(1px 1px #f42b26);
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 20%;
@@ -337,7 +339,7 @@ iframe {
 .third-body h5 {
   font-size: 30px;
   font-weight: 600;
-  color: #fcce00;
+  color: black;
   filter: drop-shadow(2px 2px rgba(244, 43, 38));
   font-family: "coming soon";
 }
@@ -355,7 +357,7 @@ iframe {
   flex-direction: column;
   padding: 3%;
   margin-top: 5%;
-  color: #fcce00;
+  color: black;
   justify-content: center;
   align-items: center;
   animation: appear linear;
@@ -399,7 +401,7 @@ iframe {
   filter: drop-shadow(2px 2px black);
 }
 .footer {
-  color: grey;
+  color: black;
   font-family: "poppins";
   display: flex;
   font-size: 10px;
