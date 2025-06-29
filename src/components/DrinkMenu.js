@@ -8,13 +8,13 @@ const DrinkMenu = () => {
         <div className="extra-info">
           <div className="extra-title">
             <h2>SOFT DRINKS</h2>
-            <p>80,000 L.L</p>
+            <p>100,000 L.L</p>
           </div>
         </div>
         <div className="extra-info">
           <div className="extra-title">
             <h2>ICE TEA</h2>
-            <p>80,000 L.L</p>
+            <p>100,000 L.L</p>
           </div>
         </div>
         <div className="extra-info">

@@ -4,7 +4,7 @@ const Intro = () => {
     <div>
       <div className="first-body">
         <div className="intro">
-          <h1>Welcome To Marley's Food Truck</h1>
+          <h1>Welcome To Marley's Grilling Station</h1>
         </div>
       </div>
     </div>

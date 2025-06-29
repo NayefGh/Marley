@@ -1,4 +1,3 @@
-import halal from "../pictures/halal.png";
 const ExtraMenu = () => {
   return (
     <div>
@@ -8,7 +7,7 @@ const ExtraMenu = () => {
       <div className="extra-all-info">
         <div className="extra-info">
           <div className="extra-title">
-            <h2>CHEESE</h2>
+            <h2>EXTRA CHEESE</h2>
             <p>50,000 L.L</p>
           </div>
         </div>
@@ -20,20 +19,32 @@ const ExtraMenu = () => {
         </div>
         <div className="extra-info">
           <div className="extra-title">
-              <h2>BACON</h2>
+            <h2>BEEF BACON</h2>
             <p>100,000 L.L</p>
           </div>
         </div>
         <div className="extra-info">
           <div className="extra-title">
             <h2>SMOKED TURKEY</h2>
-            <p>50,000 L.L</p>
+            <p>100,000 L.L</p>
           </div>
         </div>
         <div className="extra-info">
           <div className="extra-title">
             <h2>CHIPS</h2>
-            <p>40,000 L.L</p>
+            <p>50,000 L.L</p>
+          </div>
+        </div>
+        <div className="extra-info">
+          <div className="extra-title">
+            <h2>REAL AVOCODO SAUCE</h2>
+            <p>100,000 L.L</p>
+          </div>
+          <div className="extra-info">
+            <div className="extra-title">
+              <h2>HONEY MUSTARD SAUCE</h2>
+              <p>100,000 L.L</p>
+            </div>
           </div>
         </div>
       </div>

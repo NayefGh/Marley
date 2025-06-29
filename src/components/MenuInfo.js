@@ -1,11 +1,11 @@
-import hot2 from "../pictures/hot2.png";
+import hot from "../pictures/hot.png";
 import New from "../pictures/new.png";
 const MenuInfo = () => {
   return (
     <div className="menu-info">
       <div className="menu-title">
         <h2>MARLEY'S</h2>
-        <p>500,000 L.L</p>
+        <p>550,000 L.L</p>
       </div>
       <div className="menu-para">
         <p>
@@ -16,7 +16,7 @@ const MenuInfo = () => {
       <hr />
       <div className="menu-title">
         <h2>DOUBLE MARLEY'S</h2>
-        <p>900,000 L.L</p>
+        <p>950,000 L.L</p>
       </div>
       <div className="menu-para">
         <p>
@@ -26,13 +26,44 @@ const MenuInfo = () => {
       </div>
       <hr />
       <div className="menu-title">
-        <h2>HOTDOG</h2>
-        <p>400,000 L.L</p>
+        <div className="menu-hot">
+          <h2>CRAZY MUSHROOM</h2>
+          <img src={New} alt="" />
+        </div>
+        <p>600,000 L.L</p>
       </div>
       <div className="menu-para">
         <p>
-          Grilled Hotdog, Mayo, Mustard, Ketchup, Mix of Chips, Melted
-          Cheddar
+          120g of our Juicy Beef Patty, Fresh Creamy Mushroom Sauce, Swiss
+          Cheese
+        </p>
+      </div>
+      <hr />
+      <div className="menu-title">
+        <div className="menu-hot">
+          <h2>NO PEPPER, NO CRY</h2>
+          <img src={New} alt="" />
+          <img src={hot} alt="" />
+        </div>
+        <p>550,000 L.L</p>
+      </div>
+      <div className="menu-para">
+        <p>
+          120g of our Juicy Beef Patty, Marley's Chilli Sauce, Jalapeño,
+          Iceberg, Mayo, Tomato, Cheddar Slice
+        </p>
+      </div>
+      <hr />
+      <div className="menu-title">
+        <div className="menu-hot">
+          <h2>CRUNCHY CHICKEN</h2>
+          <img src={New} alt="" />
+        </div>
+        <p>550,000 L.L</p>
+      </div>
+      <div className="menu-para">
+        <p>
+          120g Crunchy Chicken Breast, Mayo, Iceberg, Tomato, Melted Cheddar
         </p>
       </div>
       <hr />
@@ -41,7 +72,7 @@ const MenuInfo = () => {
           <h2>LEBANESE STYLE</h2>
           <img src={New} alt="" />
         </div>
-        <p>500,000 L.L</p>
+        <p>550,000 L.L</p>
       </div>
       <div className="menu-para">
         <p>
@@ -51,11 +82,35 @@ const MenuInfo = () => {
       </div>
       <hr />
       <div className="menu-title">
+        <h2>HOTDOG</h2>
+        <p>400,000 L.L</p>
+      </div>
+      <div className="menu-para">
+        <p>
+          Grilled Hotdog, Mayo, Mustard, Ketchup, Mix of Chips, Melted Cheddar
+        </p>
+      </div>
+      <hr />
+      <div className="menu-title">
+        <div className="menu-hot">
+          <h2>FAJITAS</h2>
+          <img src={New} alt="" />
+        </div>
+        <p>600,000 L.L</p>
+      </div>
+      <div className="menu-para">
+        <p>
+          Marinated Chicken, Real Avo Sauce, Fresh Mushrooms, Pepper Mix,
+          Mozzarella
+        </p>
+      </div>
+      <hr />
+      {/* <div className="menu-title">
         <div className="menu-hot">
           <h2>CHICKEN MARLEY'S</h2>
           <img src={New} alt="" />
         </div>
-        <p>500,000 L.L</p>
+        <p>Coming Soon</p>
       </div>
       <div className="menu-para">
         <p>
@@ -63,13 +118,13 @@ const MenuInfo = () => {
           Lettuce, Pickles, Cheddar Patty
         </p>
       </div>
-      <hr />
+      <hr /> */}
       <div className="menu-title">
         <div className="menu-hot">
           <h2>MEXICAN SUB</h2>
-          <img src={hot2} alt="" />
+          <img src={hot} alt="" />
         </div>
-        <p>500,000 L.L</p>
+        <p>550,000 L.L</p>
       </div>
       <div className="menu-para">
         <p>
@@ -80,23 +135,23 @@ const MenuInfo = () => {
       <hr />
       <div className="menu-title">
         <h2>TAWOOK</h2>
-        <p>400,000 L.L</p>
+        <p>450,000 L.L</p>
       </div>
       <div className="menu-para">
         <p>
-          Juicy Tawook chicken topped of with Creamy Garlic Sauce, Lettuce, Mayo,
-          Pickles
+          Juicy Red Marinated Tawook chicken topped of with Creamy Garlic Sauce,
+          Lettuce, Mayo, Pickles
         </p>
       </div>
       <hr />
       <div className="menu-title">
         <h2>TAWOOK BASHA</h2>
-        <p>550,000 L.L</p>
+        <p>600,000 L.L</p>
       </div>
       <div className="menu-para">
         <p>
-          Juicy Tawook chicken topped of with Creamy Garlic Sauce, Lettuce, Mayo,
-          Pickles, 2x Smoked Turkey, Mozzarella Cheese
+          Juicy Red Marinated Tawook chicken topped of with Creamy Garlic Sauce,
+          Lettuce, Mayo, Pickles, 2x Smoked Turkey, Mozzarella Cheese
         </p>
       </div>
       <hr />
@@ -111,9 +166,10 @@ const MenuInfo = () => {
       </div>
       <hr />
       <div className="menu-title">
-        <h2>MARLEY'S FRIES</h2>
+        <h2>CURLEY FRIES</h2>
         <p>COMING SOON</p>
       </div>
+      <hr />
     </div>
   );
 };

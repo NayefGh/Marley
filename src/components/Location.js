@@ -8,7 +8,7 @@ const Location = () => {
           <h1>LOCATION</h1>
           <img src={location} alt="" />
         </div>
-        <h5>Beirut/Dahye - Sfeir, Bridge RoundAbout</h5>
+        <h5>Beirut/Dahye - Hadi Nasrallah Road - Facing Daouk Sweets</h5>
       </div>
       <div className="location">
         <iframe

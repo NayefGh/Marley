@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baumans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 * {
   padding: 0;
@@ -88,7 +89,7 @@ body {
 }
 .first-body {
   height: 500px;
-  background-image: url("./pictures/burger-img.jpg");
+  background-image: url("./pictures/burger.png");
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 4px;
@@ -98,13 +99,14 @@ body {
   position: relative;
   filter: drop-shadow(2px 2px 2px black);
 }
+
 .intro h1 {
   font-family: "Sedgwick Ave Display";
   position: absolute;
   right: 0;
   text-align: center;
   width: 40%;
-  font-size: 101px;
+  font-size: 95px;
   font-weight: 600;
   color: #23b73b;
   filter: drop-shadow(3px 1px 1px #fcce00);
@@ -193,7 +195,6 @@ body {
 .menu-title h2 {
   font-family: "Atma";
   font-size: 30px;
-  text-align: center;
   color: #f42b26;
   filter: drop-shadow(1px 1px #fcce00);
   margin-top: 1%;
@@ -226,8 +227,8 @@ body {
   margin-top: 1%;
 }
 .menu-hot img {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 .third-body h3 {
   margin-bottom: 1%;
@@ -340,7 +341,7 @@ iframe {
   font-size: 30px;
   font-weight: 600;
   color: black;
-  filter: drop-shadow(2px 2px rgba(244, 43, 38));
+  filter: drop-shadow(1px 1px rgba(244, 43, 38));
   font-family: "coming soon";
 }
 .loc-pic {
@@ -485,12 +486,12 @@ iframe {
   font-family: "Bebas Neue";
   color: #23b73b;
   font-size: 40px;
-  filter: drop-shadow(2px 2px #fcce00);
+  filter: drop-shadow(2px 2px black);
 }
 .title2 p {
   font-family: "Slackey";
   font-size: 15px;
-  filter: drop-shadow(1px 1px #fcce00);
+  filter: drop-shadow(1px 1px black);
   color: #f42b26;
 }
 
@@ -595,6 +596,6 @@ iframe {
     width: 100%;
     z-index: 10;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(252, 206, 0, 0.5);
   }
 }
