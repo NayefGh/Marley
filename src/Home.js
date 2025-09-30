@@ -1,5 +1,4 @@
 import Navbar from "./components/Navbar";
-import Navbar2 from "./components/Navbar2";
 import Intro from "./components/Intro";
 import About from "./components/About";
 import Menu from "./components/Menu";
@@ -11,7 +10,6 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Navbar2 />
       <Intro />
       <About />
       <Menu />

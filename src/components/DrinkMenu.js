@@ -1,7 +1,7 @@
 const DrinkMenu = () => {
   return (
     <div>
-      <div className="menu-extra">
+      <div className="menu-extra" id="drinks">
         <h4>DRINKS</h4>
       </div>
       <div className="extra-all-info">

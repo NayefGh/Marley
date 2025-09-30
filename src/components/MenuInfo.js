@@ -1,8 +1,12 @@
 import hot from "../pictures/hot.png";
-import New from "../pictures/new.png";
+// import New from "../pictures/new.png";
+
 const MenuInfo = () => {
   return (
     <div className="menu-info">
+      <div className="section-title" id="burgers">
+        <h1>Burgers</h1>
+      </div>
       <div className="menu-title">
         <h2>MARLEY'S</h2>
         <p>550,000 L.L</p>
@@ -14,6 +18,7 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
+
       <div className="menu-title">
         <h2>DOUBLE MARLEY'S</h2>
         <p>950,000 L.L</p>
@@ -25,10 +30,10 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
+
       <div className="menu-title">
         <div className="menu-hot">
           <h2>CRAZY MUSHROOM</h2>
-          <img src={New} alt="" />
         </div>
         <p>600,000 L.L</p>
       </div>
@@ -39,11 +44,11 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
+
       <div className="menu-title">
         <div className="menu-hot">
           <h2>NO PEPPER, NO CRY</h2>
-          <img src={New} alt="" />
-          <img src={hot} alt="" />
+          <img src={hot} alt="hot" />
         </div>
         <p>550,000 L.L</p>
       </div>
@@ -57,7 +62,6 @@ const MenuInfo = () => {
       <div className="menu-title">
         <div className="menu-hot">
           <h2>CRUNCHY CHICKEN</h2>
-          <img src={New} alt="" />
         </div>
         <p>550,000 L.L</p>
       </div>
@@ -70,7 +74,6 @@ const MenuInfo = () => {
       <div className="menu-title">
         <div className="menu-hot">
           <h2>LEBANESE STYLE</h2>
-          <img src={New} alt="" />
         </div>
         <p>550,000 L.L</p>
       </div>
@@ -81,6 +84,10 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
+
+      <div className="section-title" id="sandwish">
+        <h1>Sandwiches</h1>
+      </div>
       <div className="menu-title">
         <h2>HOTDOG</h2>
         <p>400,000 L.L</p>
@@ -91,10 +98,10 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
+
       <div className="menu-title">
         <div className="menu-hot">
           <h2>FAJITAS</h2>
-          <img src={New} alt="" />
         </div>
         <p>600,000 L.L</p>
       </div>
@@ -105,24 +112,11 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
-      {/* <div className="menu-title">
-        <div className="menu-hot">
-          <h2>CHICKEN MARLEY'S</h2>
-          <img src={New} alt="" />
-        </div>
-        <p>Coming Soon</p>
-      </div>
-      <div className="menu-para">
-        <p>
-          120g Grilled Chicken Breast, Marley's Sauce, Honey Mustard, Corn,
-          Lettuce, Pickles, Cheddar Patty
-        </p>
-      </div>
-      <hr /> */}
+
       <div className="menu-title">
         <div className="menu-hot">
           <h2>MEXICAN SUB</h2>
-          <img src={hot} alt="" />
+          <img src={hot} alt="hot" />
         </div>
         <p>550,000 L.L</p>
       </div>
@@ -133,6 +127,7 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
+
       <div className="menu-title">
         <h2>TAWOOK</h2>
         <p>450,000 L.L</p>
@@ -144,6 +139,7 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
+
       <div className="menu-title">
         <h2>TAWOOK BASHA</h2>
         <p>600,000 L.L</p>
@@ -155,6 +151,11 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
+
+      {/* Fries Section */}
+      <div className="section-title" id="fries">
+        <h1>Fries</h1>
+      </div>
       <div className="menu-title">
         <h2>FRIES BOX</h2>
         <p>300,000 L.L</p>
@@ -165,11 +166,11 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
+
       <div className="menu-title">
         <h2>CURLEY FRIES</h2>
         <p>COMING SOON</p>
       </div>
-      <hr />
     </div>
   );
 };
