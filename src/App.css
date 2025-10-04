@@ -10,7 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baumans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
 
 * {
   padding: 0;
@@ -175,6 +175,7 @@ body {
   display: block;
   width: 25px;
   height: 2px;
+
   background: black;
   border-radius: 2px;
   transition: all 0.3s ease;
@@ -207,6 +208,7 @@ body {
   margin-top: 20px;
   transition: left 0.4s ease;
   background: black;
+    font-size: 20px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 0 0 12px 12px;
@@ -217,15 +219,14 @@ body {
 }
 .mobile-link {
   color: #ffc300;
-
+    font-size: 25px;
   filter: drop-shadow(1px 1px #f42b26);
-  font-size: 1.2rem;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .mobile-link:hover {
-  color: #ff4b2b;
+  color: #23b73b;
 }
 
 @media (max-width: 768px) {
@@ -346,7 +347,7 @@ body {
 .section-title h1 {
   text-align: center;
   font-size: 80px;
-  font-family:"Lobster";
+  font-family: "Lobster";
   margin-top: 20px;
   color: #f42b26;
   filter: drop-shadow(1px 1px #fcce00);
@@ -361,8 +362,8 @@ body {
   animation-range: entry 0% cover 20%;
 }
 .menu-title h2 {
-  font-family: "Atma";
-  font-size: 30px;
+  font-family: "bebas neue";
+  font-size: 45px;
   color: #f42b26;
   filter: drop-shadow(1px 1px #fcce00);
   margin-top: 1%;
@@ -415,7 +416,7 @@ body {
 .menu-extra {
   display: flex;
   width: 100%;
-  margin-top: 1%;
+  margin-top: 50px;
   justify-content: center;
   align-items: center;
   animation: appear linear;
@@ -430,7 +431,7 @@ body {
   color: #f42b26;
   filter: drop-shadow(1px 1px black);
   width: 50%;
-  gap: 5px;
+  gap: 10px;
   display: flex;
   flex-direction: column;
   padding: 1%;
@@ -443,10 +444,19 @@ body {
   justify-content: center;
   gap: 10%;
 }
-
+.halal{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin-right:60px;
+}
+.halal img{
+  width: 30px;
+  height: 30px;
+}
 .extra-title h2 {
-  font-family: "Atma";
-  font-size: 25px;
+  font-family: "bebas neue";
+  font-size: 33px;
   width: 50%;
   filter: drop-shadow(1px 1px #fcce00);
   animation: appear linear;
@@ -654,19 +664,21 @@ iframe {
     text-align: center;
   }
   .menu-title h2 {
-    font-size: 15px;
+    font-size: 25px;
+    margin-top: 10px;
     margin-bottom: 1%;
   }
   .menu-info p {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 600;
+    margin-bottom: 7px;
   }
   .menu-extra h4 {
     font-size: 30px;
   }
   .menu-hot img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
   }
   .extra-all-info {
     width: 80%;
@@ -674,10 +686,11 @@ iframe {
     margin-left: 40px;
   }
   .extra-title h2 {
-    font-size: 15px;
+    font-size: 20px;
+    padding: 2%;
   }
   .extra-title p {
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 600;
   }
   .loc-pic img {
@@ -696,6 +709,10 @@ iframe {
   .contact-whats p {
     font-size: 18px;
     text-align: center;
+  }
+  .halal{
+    width: 25%;
+    gap: 15px;
   }
   .footer p {
     font-size: 5px;

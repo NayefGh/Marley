@@ -1,3 +1,5 @@
+import halal from "../pictures/halal.png";
+
 const ExtraMenu = () => {
   return (
     <div>
@@ -19,7 +21,10 @@ const ExtraMenu = () => {
         </div>
         <div className="extra-info">
           <div className="extra-title">
-            <h2>BEEF BACON</h2>
+            <div className="halal">
+              <h2>BEEF BACON</h2>
+              <img src={halal} alt="" />
+            </div>
             <p>100,000 L.L</p>
           </div>
         </div>

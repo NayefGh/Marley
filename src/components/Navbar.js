@@ -47,7 +47,7 @@ const Navbar = () => {
           <h1>MARLEY'S</h1>
           <img src={burger2} alt="" />
         </div>
-        <p>Burgers & More</p>
+        <p>Grilling Station</p>
       </div>
 
       {/* Desktop Nav */}
