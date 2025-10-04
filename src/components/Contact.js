@@ -1,4 +1,3 @@
-import whats from "../pictures/whatsapp.png";
 const Contact = () => {
   return (
     <div>
