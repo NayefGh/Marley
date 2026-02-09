@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.title h1 {
+/* .title h1 {
   font-family: "Bebas Neue";
   color: #23b73b;
   font-size: 50px;
@@ -51,8 +51,12 @@ body {
   font-weight: 600;
   filter: drop-shadow(1px 1px black);
   color: #f42b26;
+} */
+.title img {
+  width: 200px;
+  height: 120px;
+  filter: drop-shadow(2px 2px 2px black);
 }
-
 .nav-btns {
   display: flex;
   gap: 50px;
@@ -205,10 +209,10 @@ body {
   padding: 24px 0;
   gap: 24px;
   font-family: "Bangers";
-  margin-top: 20px;
+  margin-top: 30px;
   transition: left 0.4s ease;
   background: black;
-    font-size: 20px;
+  font-size: 20px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 0 0 12px 12px;
@@ -219,7 +223,7 @@ body {
 }
 .mobile-link {
   color: #ffc300;
-    font-size: 25px;
+  font-size: 25px;
   filter: drop-shadow(1px 1px #f42b26);
   text-decoration: none;
   transition: color 0.3s ease;
@@ -237,7 +241,11 @@ body {
   .hamburger {
     display: flex;
   }
-  .nav-title h1 {
+  .title img {
+    width: 110px;
+    height: 60px;
+  }
+  /* .nav-title h1 {
     font-size: 30px;
   }
   .nav-title img {
@@ -246,7 +254,7 @@ body {
   }
   .title p {
     font-size: 12px;
-  }
+  } */
 }
 .first-body {
   height: 500px;
@@ -349,8 +357,8 @@ body {
   font-size: 80px;
   font-family: "Lobster";
   margin-top: 20px;
-  color: #f42b26;
-  filter: drop-shadow(1px 1px #fcce00);
+  color: #fcce00;
+  filter: drop-shadow(2px 2px #f42b26);
 }
 .menu-title {
   display: flex;
@@ -416,9 +424,9 @@ body {
 .menu-extra {
   display: flex;
   width: 100%;
+  padding: 3%;
   margin-top: 50px;
   justify-content: center;
-  align-items: center;
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 10%;
@@ -430,12 +438,10 @@ body {
   border-radius: 6px;
   color: #f42b26;
   filter: drop-shadow(1px 1px black);
-  width: 50%;
-  gap: 10px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1%;
-  margin-left: 25%;
+  padding: 3%;
 }
 .extra-title {
   display: flex;
@@ -444,13 +450,12 @@ body {
   justify-content: center;
   gap: 10%;
 }
-.halal{
+.halal {
   display: flex;
   align-items: center;
-  width: 40%;
-  margin-right:60px;
+  width: 50%;
 }
-.halal img{
+.halal img {
   width: 30px;
   height: 30px;
 }
@@ -657,11 +662,14 @@ iframe {
     font-weight: 900;
   }
   .third-body h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
   .third-body h3 {
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
+  }
+  .menu-title {
+    padding: 2px;
   }
   .menu-title h2 {
     font-size: 25px;
@@ -669,6 +677,7 @@ iframe {
     margin-bottom: 1%;
   }
   .menu-info p {
+    padding: 2px;
     font-size: 13px;
     font-weight: 600;
     margin-bottom: 7px;
@@ -710,8 +719,8 @@ iframe {
     font-size: 18px;
     text-align: center;
   }
-  .halal{
-    width: 25%;
+  .halal {
+    width: 50%;
     gap: 15px;
   }
   .footer p {

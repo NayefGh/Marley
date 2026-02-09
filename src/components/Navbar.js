@@ -31,7 +31,8 @@
 // export default Navbar;
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import burger2 from "../pictures/burger-icon.png";
+// import burger2 from "../pictures/burger-icon.png";
+import m from "../pictures/m.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,11 +44,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="title">
-        <div className="nav-title">
+        {/* <div className="nav-title">
           <h1>MARLEY'S</h1>
           <img src={burger2} alt="" />
         </div>
-        <p>Grilling Station</p>
+        <p>Grilling Station</p> */}
+        <img src={m} alt="" />
       </div>
 
       {/* Desktop Nav */}

@@ -49,6 +49,7 @@ const MenuInfo = () => {
         <div className="menu-hot">
           <h2>NO PEPPER, NO CRY</h2>
           <img src={hot} alt="hot" />
+          <img src={hot} alt="hot" />
         </div>
         <p>550,000 L.L</p>
       </div>
@@ -62,6 +63,7 @@ const MenuInfo = () => {
       <div className="menu-title">
         <div className="menu-hot">
           <h2>CRUNCHY CHICKEN</h2>
+          <img src={hot} alt="hot" />
         </div>
         <p>550,000 L.L</p>
       </div>
@@ -117,6 +119,7 @@ const MenuInfo = () => {
         <div className="menu-hot">
           <h2>MEXICAN SUB</h2>
           <img src={hot} alt="hot" />
+          <img src={hot} alt="hot" />
         </div>
         <p>550,000 L.L</p>
       </div>
@@ -158,18 +161,17 @@ const MenuInfo = () => {
       </div>
       <div className="menu-title">
         <h2>FRIES BOX</h2>
-        <p>300,000 L.L</p>
-      </div>
-      <div className="menu-para">
-        <p>
-          Our Golden Fries fried to perfection served with BBQ sauce & Ketchup
-        </p>
+        <p>350,000 L.L</p>
       </div>
       <hr />
-
       <div className="menu-title">
         <h2>CURLEY FRIES</h2>
-        <p>COMING SOON</p>
+        <p>450,000 L.L</p>
+      </div>
+      <hr />
+      <div className="menu-title">
+        <h2>WEDGES</h2>
+        <p>400,000 L.L</p>
       </div>
     </div>
   );
