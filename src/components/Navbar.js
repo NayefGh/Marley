@@ -66,6 +66,9 @@ const Navbar = () => {
             <Link to="#sandwish" smooth className="submenu-link">
               SANDWISHES
             </Link>
+            <Link to="#appi" smooth className="submenu-link">
+              APPETIZERS
+            </Link>
             <Link to="#fries" smooth className="submenu-link">
               FRIES
             </Link>
@@ -117,7 +120,15 @@ const Navbar = () => {
                 className="mobile-sub-link"
                 onClick={toggleMenu}
               >
-                SANDWISHES
+                Sandwishes
+              </Link>
+                 <Link
+                to="#appi"
+                smooth
+                className="mobile-sub-link"
+                onClick={toggleMenu}
+              >
+                Appetizers
               </Link>
               <Link
                 to="#fries"
@@ -125,7 +136,7 @@ const Navbar = () => {
                 className="mobile-sub-link"
                 onClick={toggleMenu}
               >
-                FRIES
+                Fries
               </Link>
               <Link
                 to="#extra"
@@ -141,7 +152,7 @@ const Navbar = () => {
                 className="mobile-sub-link"
                 onClick={toggleMenu}
               >
-                DRINKS
+                Drinks
               </Link>
             </div>
           )}

@@ -162,7 +162,7 @@ const MenuInfo = () => {
         </p>
       </div>
       <hr />
-      <div className="section-title" id="fries">
+      <div className="section-title" id="appi">
         <img src={appi} alt="" />
         <h1>Appetizers</h1>
         <img src={appi} alt="" />
