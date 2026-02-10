@@ -42,13 +42,19 @@ const ExtraMenu = () => {
         </div>
         <div className="extra-info">
           <div className="extra-title">
-            <h2>REAL AVOCODO SAUCE</h2>
+            <h2>MEXICAN SAUCE</h2>
             <p>100,000 L.L</p>
           </div>
           <div className="extra-info">
             <div className="extra-title">
               <h2>HONEY MUSTARD SAUCE</h2>
               <p>100,000 L.L</p>
+            </div>
+          </div>
+          <div className="extra-info">
+            <div className="extra-title">
+              <h2>MOZZARELLA PATTY</h2>
+              <p>200,000 L.L</p>
             </div>
           </div>
         </div>

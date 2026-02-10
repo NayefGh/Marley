@@ -341,6 +341,16 @@ body {
     scale: 1;
   }
 }
+.section-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.section-title img{
+  width: 45px;
+  height: 45px;
+}
 .menu-info {
   display: flex;
   flex-direction: column;
@@ -656,7 +666,10 @@ iframe {
     margin-bottom: 10px;
     margin-top: 10px;
   }
-
+.section-title img{
+  width: 30px;
+  height: 30px;
+}
   .second-title p {
     font-size: 15px;
     font-weight: 900;

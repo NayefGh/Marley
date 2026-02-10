@@ -17,6 +17,12 @@ const DrinkMenu = () => {
             <p>100,000 L.L</p>
           </div>
         </div>
+         <div className="extra-info">
+          <div className="extra-title">
+            <h2>SPARKLING WATER</h2>
+            <p>100,000 L.L</p>
+          </div>
+        </div>
         <div className="extra-info">
           <div className="extra-title">
             <h2>WATER</h2>
