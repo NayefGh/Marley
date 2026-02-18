@@ -117,7 +117,7 @@ const MenuInfo = () => {
       </div>
       <div className="menu-para">
         <p>
-          Marinated Chicken, Real Avo Sauce, Fresh Mushrooms, Pepper Mix,
+          Marinated Chicken, Avocado Sauce, Fresh Mushrooms, Pepper Mix,
           Mozzarella
         </p>
       </div>

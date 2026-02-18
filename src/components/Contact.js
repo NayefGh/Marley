@@ -8,8 +8,7 @@ const Contact = () => {
             For delivery or takeaway, contact us on
             <a href="https://Wa.me/+96170644678">Whatsapp</a>
           </p>
-          <p>We are open daily from 12 pm till 4 am</p>
-          <p>Closed on Sunday</p>
+          <p>We are open daily from 12 pm till 3 am</p>
         </div>
       </div>
     </div>
